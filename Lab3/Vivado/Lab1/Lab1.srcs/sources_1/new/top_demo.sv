@@ -28,7 +28,6 @@ module top_demo
   input  logic       sysclk_125mhz,
   input  logic       rst,
   // output  
-  output logic [7:0] led,
   output logic sseg_ca,
   output logic sseg_cb,
   output logic sseg_cc,
@@ -37,7 +36,8 @@ module top_demo
   output logic sseg_cf,
   output logic sseg_cg,
   output logic sseg_dp,
-  output logic [3:0] sseg_an
+  output logic [3:0] sseg_an,
+    output logic [7:0] led
 );
 
   logic [16:0] CURRENT_COUNT;
@@ -52,8 +52,8 @@ module top_demo
   FSM dut (bclock, btn[2], sw[7], sw[0], sw[3], led[5], led[6], led[7], led[2], led[1], led[0]);
   
   
-  // 7-segment display
-  segment_driver driver(
+//   7-segment display
+  /*segment_driver driver(
   .clk(smol_clk),
   .rst(btn[3]),
   .digit0(sw[3:0]),
@@ -63,7 +63,7 @@ module top_demo
   .decimals({1'b0, btn[2:0]}),
   .segment_cathodes({sseg_dp, sseg_cg, sseg_cf, sseg_ce, sseg_cd, sseg_cc, sseg_cb, sseg_ca}),
   .digit_anodes(sseg_an)
-  );
+  );*/
 
 // Register logic storing clock counts
   always@(posedge sysclk_125mhz)

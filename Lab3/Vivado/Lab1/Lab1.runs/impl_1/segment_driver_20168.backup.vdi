@@ -1,0 +1,733 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 29 15:16:39 2023
+# Process ID: 20168
+# Current directory: C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.runs/impl_1
+# Command line: vivado.exe -log segment_driver.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source segment_driver.tcl -notrace
+# Log file: C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.runs/impl_1/segment_driver.vdi
+# Journal file: C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source segment_driver.tcl -notrace
+Command: link_design -top segment_driver -part xc7z020clg484-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1126.539 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[3]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[2]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[1]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[0]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[0]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[1]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[2]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[3]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_an[3]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_an[2]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_an[1]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_an[0]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_an[3]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_an[2]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_an[1]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_an[0]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_ca'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_cb'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_cc'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_cd'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_ce'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_cf'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_cg'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_dp'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sysclk_125mhz'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_dp'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_cg'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_cf'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_ce'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_cd'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_cc'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_cb'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg_ca'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sysclk_125mhz'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/constrs_1/new/constr.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1126.539 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 68 Warnings, 68 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 1126.539 ; gain = 0.000
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.821 . Memory (MB): peak = 1126.539 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1595d57aa
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1595.668 ; gain = 469.129
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1595d57aa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1806.316 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 1595d57aa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1806.316 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1595d57aa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1806.316 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1595d57aa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1806.316 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 1595d57aa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1806.316 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1595d57aa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1806.316 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1806.316 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1595d57aa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1806.316 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 1595d57aa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1806.316 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1595d57aa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1806.316 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1806.316 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1595d57aa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1806.316 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+24 Infos, 68 Warnings, 68 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1806.316 ; gain = 679.777
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1806.316 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.runs/impl_1/segment_driver_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file segment_driver_drc_opted.rpt -pb top_demo_drc_opted.pb -rpx top_demo_drc_opted.rpx
+Command: report_drc -file segment_driver_drc_opted.rpt -pb top_demo_drc_opted.pb -rpx top_demo_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.runs/impl_1/segment_driver_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1853.367 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: d7f1befc
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1853.367 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 7641b639
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.325 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 104e76910
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.342 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 104e76910
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.346 . Memory (MB): peak = 1853.367 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 104e76910
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.351 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 104e76910
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.356 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 104e76910
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.357 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 2.3 Global Placement Core
+WARNING: [Place 46-29] place_design is not in timing mode. Skip physical synthesis in placer
+Phase 2.3 Global Placement Core | Checksum: 84c860d4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.681 . Memory (MB): peak = 1853.367 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 84c860d4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.685 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 84c860d4
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.687 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: cbb2be00
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.693 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1022ebaa8
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.699 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1022ebaa8
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.700 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: 1447c03a5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.800 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 1447c03a5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.803 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 1447c03a5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.804 . Memory (MB): peak = 1853.367 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1447c03a5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.804 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 4.1 Post Commit Optimization | Checksum: 1447c03a5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.806 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1447c03a5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.808 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                1x1|
+|___________|___________________|___________________|
+|      South|                1x1|                1x1|
+|___________|___________________|___________________|
+|       East|                1x1|                1x1|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 1447c03a5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.809 . Memory (MB): peak = 1853.367 ; gain = 0.000
+Phase 4.3 Placer Reporting | Checksum: 1447c03a5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.809 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1853.367 ; gain = 0.000
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.809 . Memory (MB): peak = 1853.367 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1447c03a5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.810 . Memory (MB): peak = 1853.367 ; gain = 0.000
+Ending Placer Task | Checksum: 56ba1123
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.810 . Memory (MB): peak = 1853.367 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+43 Infos, 69 Warnings, 68 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1853.367 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.runs/impl_1/segment_driver_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file segment_driver_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1853.367 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file segment_driver_utilization_placed.rpt -pb top_demo_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file segment_driver_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1853.367 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Vivado_Tcl 4-235] No timing constraint found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+51 Infos, 69 Warnings, 68 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1857.395 ; gain = 4.027
+INFO: [Common 17-1381] The checkpoint 'C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.runs/impl_1/segment_driver_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 35e190af ConstDB: 0 ShapeSum: 20d88074 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 669d0a0b
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 1969.164 ; gain = 102.754
+Post Restoration Checksum: NetGraph: 546ed930 NumContArr: 122e30db Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+INFO: [Route 35-64] No timing constraints were detected. The router will operate in resource-optimization mode.
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 669d0a0b
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 1975.160 ; gain = 108.750
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 669d0a0b
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 1975.160 ; gain = 108.750
+ Number of Nodes with overlaps = 0
+Phase 2 Router Initialization | Checksum: 19dedbf86
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 1985.273 ; gain = 118.863
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 35
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 35
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 19dedbf86
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 1988.539 ; gain = 122.129
+Phase 3 Initial Routing | Checksum: f7cb6800
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 1988.539 ; gain = 122.129
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 0
+Phase 4.1 Global Iteration 0 | Checksum: ed6eaa09
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1988.539 ; gain = 122.129
+Phase 4 Rip-up And Reroute | Checksum: ed6eaa09
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1988.539 ; gain = 122.129
+
+Phase 5 Delay and Skew Optimization
+Phase 5 Delay and Skew Optimization | Checksum: ed6eaa09
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1988.539 ; gain = 122.129
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+Phase 6.1 Hold Fix Iter | Checksum: ed6eaa09
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1988.539 ; gain = 122.129
+Phase 6 Post Hold Fix | Checksum: ed6eaa09
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1988.539 ; gain = 122.129
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.0157917 %
+  Global Horizontal Routing Utilization  = 0.010311 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 10.8108%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 17.1171%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 10.2941%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 14.7059%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 7 Route finalize | Checksum: ed6eaa09
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1988.539 ; gain = 122.129
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: ed6eaa09
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1988.539 ; gain = 122.129
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 157ce6cc5
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1988.539 ; gain = 122.129
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1988.539 ; gain = 122.129
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+61 Infos, 69 Warnings, 68 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1988.539 ; gain = 131.145
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 1998.164 ; gain = 9.625
+INFO: [Common 17-1381] The checkpoint 'C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.runs/impl_1/segment_driver_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file segment_driver_drc_routed.rpt -pb top_demo_drc_routed.pb -rpx top_demo_drc_routed.rpx
+Command: report_drc -file segment_driver_drc_routed.rpt -pb top_demo_drc_routed.pb -rpx top_demo_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.runs/impl_1/segment_driver_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file segment_driver_methodology_drc_routed.rpt -pb top_demo_methodology_drc_routed.pb -rpx top_demo_methodology_drc_routed.rpx
+Command: report_methodology -file segment_driver_methodology_drc_routed.rpt -pb top_demo_methodology_drc_routed.pb -rpx top_demo_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.runs/impl_1/segment_driver_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file segment_driver_power_routed.rpt -pb top_demo_power_summary_routed.pb -rpx top_demo_power_routed.rpx
+Command: report_power -file segment_driver_power_routed.rpt -pb top_demo_power_summary_routed.pb -rpx top_demo_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Power 33-232] No user defined clocks were found in the design! Power estimation will be inaccurate until this is corrected.
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+73 Infos, 70 Warnings, 68 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file segment_driver_route_status.rpt -pb top_demo_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file segment_driver_timing_summary_routed.rpt -pb top_demo_timing_summary_routed.pb -rpx top_demo_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file segment_driver_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file segment_driver_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file segment_driver_bus_skew_routed.rpt -pb top_demo_bus_skew_routed.pb -rpx top_demo_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_power -file segment_driver_power_routed_1.rpt -pb top_demo_power_summary_routed_1.pb -rpx top_demo_power_routed_1.rpx
+Command: report_power -file segment_driver_power_routed_1.rpt -pb top_demo_power_summary_routed_1.pb -rpx top_demo_power_routed_1.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+4 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_timing -file route_report_timing_0.rpt -rpx route_report_timing_0.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+INFO: [runtcl-4] Executing : report_utilization -file route_report_utilization_0.rpt -pb route_report_utilization_0.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 29 15:17:32 2023...

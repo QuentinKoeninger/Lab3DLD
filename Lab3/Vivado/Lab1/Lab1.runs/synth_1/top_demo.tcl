@@ -70,6 +70,8 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 4
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg484-1
 
@@ -86,9 +88,7 @@ OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib -sv {
   C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/SV/clk_div.sv
-  C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/sources_1/imports/vivado/digit2segments.sv
   C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/SV/fsm.sv
-  C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/sources_1/imports/vivado/segment_driver.sv
   C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.srcs/sources_1/new/top_demo.sv
 }
 OPTRACE "Adding files" END { }

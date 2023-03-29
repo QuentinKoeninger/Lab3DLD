@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 29 15:16:39 2023
+# Process ID: 20168
+# Current directory: C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.runs/impl_1
+# Command line: vivado.exe -log segment_driver.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source segment_driver.tcl -notrace
+# Log file: C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.runs/impl_1/segment_driver.vdi
+# Journal file: C:/Users/qkoenin/Desktop/Lab3DLD/Lab3/Vivado/Lab1/Lab1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source segment_driver.tcl -notrace

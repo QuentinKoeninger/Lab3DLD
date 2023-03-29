@@ -36,6 +36,7 @@ module FSM (clk, reset, Lin, Rin, H, Li, Lm, Lo, Ri, Rm, Ro);
         R <= Rin;
       end
      endcase
+     
    always_comb
      case (state)
        S0: begin

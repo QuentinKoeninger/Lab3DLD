@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Wed Mar 29 14:56:24 2023
+| Date         : Wed Mar 29 16:30:51 2023
 | Host         : CEAT-ENDV350-09 running 64-bit major release  (build 9200)
 | Command      : report_timing -file route_report_timing_0.rpt -rpx route_report_timing_0.rpx
 | Design       : top_demo
@@ -12,28 +12,26 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 Timing Report
 
 Slack:                    inf
-  Source:                 sw[3]
+  Source:                 sw[7]
                             (input port)
-  Destination:            sseg_cb
+  Destination:            led[5]
                             (output port)
   Path Group:             (none)
   Path Type:              Max at Slow Process Corner
-  Data Path Delay:        15.959ns  (logic 5.488ns (34.386%)  route 10.471ns (65.614%))
-  Logic Levels:           4  (IBUF=1 LUT5=1 MUXF7=1 OBUF=1)
+  Data Path Delay:        10.107ns  (logic 5.567ns (55.078%)  route 4.540ns (44.922%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
 
     Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
   -------------------------------------------------------------------    -------------------
-    V4                                                0.000     0.000 r  sw[3] (IN)
-                         net (fo=0)                   0.000     0.000    sw[3]
-    V4                   IBUF (Prop_ibuf_I_O)         1.440     1.440 r  sw_IBUF[3]_inst/O
-                         net (fo=15, routed)          3.755     5.195    driver/sw_IBUF[3]
-    SLICE_X20Y47         LUT5 (Prop_lut5_I3_O)        0.124     5.319 r  driver/sseg_cb_OBUF_inst_i_2/O
-                         net (fo=1, routed)           0.000     5.319    driver/sseg_cb_OBUF_inst_i_2_n_0
-    SLICE_X20Y47         MUXF7 (Prop_muxf7_I0_O)      0.241     5.560 r  driver/sseg_cb_OBUF_inst_i_1/O
-                         net (fo=1, routed)           6.716    12.276    sseg_cb_OBUF
-    H17                  OBUF (Prop_obuf_I_O)         3.683    15.959 r  sseg_cb_OBUF_inst/O
-                         net (fo=0)                   0.000    15.959    sseg_cb
-    H17                                                               r  sseg_cb (OUT)
+    V9                                                0.000     0.000 r  sw[7] (IN)
+                         net (fo=0)                   0.000     0.000    sw[7]
+    V9                   IBUF (Prop_ibuf_I_O)         1.486     1.486 r  sw_IBUF[7]_inst/O
+                         net (fo=5, routed)           2.271     3.757    dut/sw_IBUF[2]
+    SLICE_X1Y25          LUT4 (Prop_lut4_I0_O)        0.152     3.909 r  dut/led_OBUF[5]_inst_i_1/O
+                         net (fo=1, routed)           2.270     6.179    led_OBUF[5]
+    W12                  OBUF (Prop_obuf_I_O)         3.928    10.107 r  led_OBUF[5]_inst/O
+                         net (fo=0)                   0.000    10.107    led[5]
+    W12                                                               r  led[5] (OUT)
   -------------------------------------------------------------------    -------------------
 
 
