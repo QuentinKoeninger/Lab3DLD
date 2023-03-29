@@ -44,7 +44,13 @@ module top_demo
   logic [16:0] NEXT_COUNT;
   logic        smol_clk;
   
+  // My Logics
+  logic bclock;
+  
   // Place TicTacToe instantiation here
+  clk_div clk_div1 (sysclk_125mhz, btn[3], bclock);
+  FSM dut (bclock, btn[2], sw[7], sw[0], sw[3], led[5], led[6], led[7], led[2], led[1], led[0]);
+  
   
   // 7-segment display
   segment_driver driver(
